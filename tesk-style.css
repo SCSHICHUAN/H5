@@ -1,0 +1,806 @@
+*{margin: 0;
+  padding: 0;
+  font-family: 微软雅黑;
+}
+body{min-width: 1000px}
+/*导航栏*/
+.nav{
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	background-color: rgb(9,203,200);
+	color: rgb(255,255,255);
+	line-height: 50px;
+	text-align: center;
+	z-index: 1;
+}
+.nav .nav-left{
+	font-size: 30px;
+	width: 300px;
+	margin-left: 0px;
+	float: left;
+	/*background-color: red;*/
+}
+.nav .nav-right{
+	/*background-color: red;*/
+	width: 400px;
+	height: 50px;
+	float: right;
+	margin-right: 60px;
+	font-size:10px;
+
+
+}
+.nav .nav-right  .nav-right-li1 a:hover{
+	/*display: block;*/
+  float: left;
+  width: 66.66px;
+  background-color: #333;
+}
+
+.nav .nav-right  .nav-right-li1 a{
+	/*display: block;*/
+  float: left;
+  width: 66.66px;
+  text-decoration:none;
+  color: rgb(255,255,255);
+  /*background-color: blue;*/
+}
+
+.nav .nav-right .nav-right-li2 a:hover{
+  float: left;
+  width: 66.66px;
+  background-color: #333;
+}
+.nav .nav-right .nav-right-li2 a{
+  float: left;
+  width: 66.66px;
+  text-decoration:none;
+  color: rgb(255,255,255);
+}
+.nav .nav-right .nav-right-li3 a:hover{
+  float: left;
+  width: 66.66px;
+  background-color: #333;
+}
+.nav .nav-right .nav-right-li3 a{
+  float: left;
+  width: 66.66px;
+  text-decoration:none;
+  color: rgb(255,255,255);
+}
+.nav .nav-right .nav-right-li4 a:hover{
+  float: left;
+  width: 66.66px;
+  background-color: #333;
+}
+.nav .nav-right .nav-right-li4 a{
+  float: left;
+  width: 66.66px;
+  text-decoration:none;
+  color: rgb(255,255,255);
+}
+.nav .nav-right .nav-right-li5 a:hover{
+  float: left;
+  width: 66.66px;
+  background-color: #333;
+}
+.nav .nav-right .nav-right-li5 a{
+  float: left;
+  width: 66.66px;
+  text-decoration:none;
+  color: rgb(255,255,255);
+}
+.nav .nav-right .nav-right-li6 a:hover{
+  float: left;
+  width: 66.66px;
+  background-color: #333;
+}
+.nav .nav-right .nav-right-li6 a{
+  float: left;
+  width: 66.66px;
+  text-decoration:none;
+  color: rgb(255,255,255);
+}
+
+
+/*banner图区域*/
+.banner{
+	margin:0 auto;
+	padding-top: 50px;
+	clear: both;
+	width: 1000px;
+	height: 400px;
+}
+.banner .background-image img{
+	width: 1000px;
+	height: 400px;
+}
+.banner .input-area{
+	position: absolute;
+	margin:0 auto;
+	top: 120px;
+	left: 0px;
+	right: 0px;
+	width: 400px;
+	height: 360px;
+	/*background-color: rgba(255,255,255,0.5);*/
+	/*opacity: 0.2;*/
+	/*border-radius: 8px;*/
+	/*overflow: hidden;*/
+	/*filter:blur(10px);*/
+}
+
+.banner .input-area .name1 input:hover{
+  /* background-color: red;*/
+  display: block;
+   width: 396px;
+   height: 30px;
+  font-size: 20px;
+  color:white; 
+  background-color: rgba(0,0,0,0.0);
+  border:1px rgba(9,203,200,0.8) solid;
+  margin-bottom: 10px;
+  
+}
+
+.banner .input-area .name1 input{
+  /* background-color: red;*/
+   width: 396px;
+   height: 30px;
+  font-size: 20px;
+  color:white; 
+  background-color: rgba(0,0,0,0.0);
+  border:1px rgba(255,255,255,0.8) solid;
+  margin-bottom: 10px;
+  
+}
+.banner .input-area .name1 input:hover{
+  /* background-color: red;*/
+  display: block;
+   width: 396px;
+   height: 30px;
+  font-size: 20px;
+  color:white; 
+  background-color: rgba(0,0,0,0.0);
+  border:1px rgba(9,203,200,0.8) solid;
+  margin-bottom: 10px;
+  
+}
+
+.banner .input-area .name2 input{
+  /* background-color: red;*/
+   width: 396px;
+   height: 30px;
+  font-size: 20px;
+  color:white; 
+  background-color: rgba(0,0,0,0.0);
+  border:1px rgba(255,255,255,0.8) solid;
+  margin-bottom: 10px;
+  
+}
+.banner .input-area .name2 input:hover{
+  /* background-color: red;*/
+  display: block;
+   width: 396px;
+   height: 30px;
+  font-size: 20px;
+  color:white; 
+  background-color: rgba(0,0,0,0.0);
+  border:1px rgba(9,203,200,0.8) solid;
+  margin-bottom: 10px;
+  
+}
+
+.banner .input-area .name3 input{
+  /* background-color: red;*/
+   width: 396px;
+   height: 30px;
+  font-size: 20px;
+  color:white; 
+  background-color: rgba(0,0,0,0.0);
+  border:1px rgba(255,255,255,0.8) solid;
+  margin-bottom: 10px;
+  
+}
+.banner .input-area .name3 input:hover{
+  /* background-color: red;*/
+  display: block;
+   width: 396px;
+   height: 30px;
+  font-size: 20px;
+  color:white; 
+  background-color: rgba(0,0,0,0.0);
+  border:1px rgba(9,203,200,0.8) solid;
+  margin-bottom: 10px;
+  
+}
+
+
+.banner .input-area  input{
+  /* background-color: red;*/
+   width: 396px;
+   height: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  color:white; 
+  background-color: rgba(0,0,0,0.0);
+  border:1px rgba(255,255,255,0.8) solid;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  
+}
+
+::-webkit-input-placeholder{               
+    color: rgba(255,255,255,0.8);
+    line-height: 30px;
+    font-size: 15px
+
+}
+
+
+.banner .input-area .name4 textarea:hover{
+  /* background-color: red;*/
+   width: 396px;
+   height: 100px;
+  font-size: 20px;
+  color:white; 
+  background-color: rgba(0,0,0,0.0);
+  border:1px rgba(9,203,200,0.8) solid;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.banner .input-area .name4 textarea{
+  /* background-color: red;*/
+   width: 396px;
+   height: 100px;
+  font-size: 20px;
+  color:white; 
+  background-color: rgba(0,0,0,0.0);
+  border:1px rgba(255,255,255,0.8) solid;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+
+
+
+/*.banner .input-area .button{
+   margin: 0 auto;
+   background-color: red;
+}*/
+.banner .input-area .button button:hover{
+   width: 200px;
+   height: 40px;
+  /* border-radius: 5px;*/
+   background-color: rgba(9,203,200,0.8);
+   border:1px rgba(9,203,200,0.8) solid;
+   color: white;
+   margin-left:100px;
+}
+.banner .input-area .button button:active{
+   width: 200px;
+   height: 40px;
+  /* border-radius: 5px;*/
+   background-color: rgba(9,203,200,0);
+   border:1px rgba(9,203,200,0.8) solid;
+   color: white;
+   margin-left:100px;
+}
+.banner .input-area .button button{
+   width: 200px;
+   height: 40px;
+  /* border-radius: 5px;*/
+   background-color: rgba(0,0,0,0);
+   border:1px rgba(255,255,255,0.8) solid;
+   color: white;
+   margin-left:100px;
+}
+
+
+/*ABOUT*/
+.about .title{
+	width: 100%
+	height:40px;
+	font-size: 40px;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 40px;
+	padding-top: 64px;
+}
+.about .line1{
+   width: 30px;
+   height: 2px;
+   background-color: rgb(9,203,200);
+    margin: 0 auto;
+    margin-top: 10px; 
+}
+.about .about-text{
+	width: 600px;
+	text-align: center;
+/*	background-color: red;*/
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.about .image{
+	background-color: red;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 500px;
+	height: 300px;
+	position: relative;
+}
+.about .image img{
+    width: 500px;
+	height: 300px;
+}
+.about .image .text-left-top{
+	position: absolute;
+	left: -200px;
+	top: 0px;
+	font-size: 20px;
+    text-align: center;
+   /* background-color: red;*/
+}
+.about .image .text-left-bottom{
+	position: absolute;
+	left: -200px;
+	top: 70px;
+	font-size: 15px;
+    text-align: left;
+    background-color: rgba(255,255,255,0.5);
+    border: 1px rgba(0,0,0,0.5) solid;
+    padding: 10px;
+}
+
+.about .image .text-left-bottom-button button{
+	width: 100px;
+	height: 40px;
+	margin-top: 10px;
+	color: white;
+	background-color: black;
+	border:1px black solid;
+}
+.about .image .text-left-bottom-button button:hover{
+	width: 100px;
+	height: 40px;
+	margin-top: 10px;
+	color: black;
+	background-color: white;
+	border:1px black solid;
+}
+.about .image .text-left-bottom-button button:active{
+	width: 100px;
+	height: 40px;
+	margin-top: 10px;
+	color: white;
+	background-color: black;
+	border:1px black solid;
+}
+
+.about .image .image-right-top{
+	position: absolute;
+    right:-180px;
+    top:0px;
+	width: 150px;
+	height: 100px;
+	border: 1px rgb(9,203,200) solid;
+}
+
+.about .image .image-right-top .top{
+	text-align: center;
+	width: 100%;
+	height: 20px;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: bolder;
+	padding-top: 20px;
+	margin: 0 auto;
+	
+}
+
+.about .image .image-right-top .mid{
+	width: 30px;
+	height: 1px;
+	background-color: rgb(9,203,200);
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+.about .image .image-right-top .bot{
+	text-align: center;
+	width: 100%;
+	height: 20px;
+	font-size: 15px;
+	line-height: 15px;
+	padding-top: 10px;
+	margin: 0 auto;
+	
+}
+
+
+
+.about .image .image-right-bottom{
+	position: absolute;
+    right:-180px;
+    top:150px;
+	width: 150px;
+	height: 100px;
+	border: 1px rgb(9,203,200) solid;
+}
+
+.about .image .image-right-bottom .top{
+	text-align: center;
+	width: 100%;
+	height: 20px;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: bolder;
+	padding-top: 20px;
+	margin: 0 auto;
+	
+}
+
+.about .image .image-right-bottom .mid{
+	width: 30px;
+	height: 1px;
+	background-color: rgb(9,203,200);
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+.about .image .image-right-bottom .bot{
+	text-align: center;
+	width: 100%;
+	height: 20px;
+	font-size: 15px;
+	line-height: 15px;
+	padding-top: 10px;
+	margin: 0 auto;
+	
+}
+.show{
+	margin: 0 auto;
+	margin-top: 60px;
+	width: 1000px;
+	height: 500px;
+	/*background-color: red;*/
+}
+.show .show1{
+	float: left;
+	width: 250px;
+	height: 250px;
+	background-color: rgb(9,203,200);
+}
+.show .show1 img{
+  width: 250px;
+  height: 250px;
+}
+.show .show2{
+	float: left;
+	width: 250px;
+	height: 250px;
+	background-color: rgb(9,203,200);
+}
+.show .show2 .title-t{
+	width: 100%
+	height 5px;
+	/*background-color: yellow;*/
+	color: white;
+	font-size: 20px;
+	padding-left: 10px;
+	margin-top: 15px;
+}
+.show .show2 .title-v{
+	width: 100%;
+	height: 60px;
+	/*background-color: blue;*/
+	padding: 10px;
+	font-size: 13px;
+	color: white;
+}
+.show .show2 .content{
+    text-align: left;
+    color: rgba(255,255,255,0.7);
+    font-size: 12px;
+    padding: 10px;
+    margin-top: -30px;
+}
+.show .show2 button{
+	margin-left: 80px;
+	width: 80px;
+	height: 30px;
+	color: white;
+	background-color: black;
+	border: 0;
+}
+.show .show2 button:hover{
+	margin-left: 80px;
+	width: 80px;
+	height: 30px;
+	color: black;
+	background-color: white;
+	border: 0;
+}
+.show .show2 button:active{
+	margin-left: 80px;
+	width: 80px;
+	height: 30px;
+	color: white;
+	background-color: black;
+	border: 0;
+}
+
+
+.show .show3{
+	float: left;
+	width: 250px;
+	height: 250px;
+	background-color: rgb(9,203,200);
+	text-align: left;
+
+}
+.show .show3 img{
+  width: 250px;
+  height: 250px;
+}
+.show .show4{
+	float: left;
+	width: 250px;
+	height: 250px;
+	background-color: rgb(9,203,200);
+}
+
+.show .show4 .title-t{
+	width: 100%
+	height 5px;
+	/*background-color: yellow;*/
+	color: white;
+	font-size: 20px;
+	padding-left: 10px;
+	margin-top: 15px;
+}
+.show .show4 .title-v{
+	width: 100%;
+	height: 60px;
+	/*background-color: blue;*/
+	padding: 10px;
+	font-size: 13px;
+	color: white;
+}
+.show .show4 .content{
+    text-align: left;
+    color: rgba(255,255,255,0.7);
+    font-size: 12px;
+    padding: 10px;
+    margin-top: -30px;
+}
+.show .show4 button{
+	margin-left: 80px;
+	width: 80px;
+	height: 30px;
+	color: white;
+	background-color: black;
+	border: 0;
+}
+.show .show4 button:hover{
+	margin-left: 80px;
+	width: 80px;
+	height: 30px;
+	color: black;
+	background-color: white;
+	border: 0;
+}
+.show .show4 button:active{
+	margin-left: 80px;
+	width: 80px;
+	height: 30px;
+	color: white;
+	background-color: black;
+	border: 0;
+}
+
+
+
+
+.show .show5{
+	float: left;
+	width: 250px;
+	height: 250px;
+	background-color: rgb(9,203,200);
+}
+.show .show5 .title-t{
+	width: 100%
+	height 5px;
+	/*background-color: yellow;*/
+	color: white;
+	font-size: 20px;
+	padding-left: 10px;
+	margin-top: 15px;
+}
+.show .show5 .title-v{
+	width: 100%;
+	height: 60px;
+	/*background-color: blue;*/
+	padding: 10px;
+	font-size: 13px;
+	color: white;
+}
+.show .show5 .content{
+    text-align: left;
+    color: rgba(255,255,255,0.7);
+    font-size: 12px;
+    padding: 10px;
+    margin-top: -30px;
+}
+.show .show5 button{
+	margin-left: 80px;
+	width: 80px;
+	height: 30px;
+	color: white;
+	background-color: black;
+	border: 0;
+}
+.show .show5 button:hover{
+	margin-left: 80px;
+	width: 80px;
+	height: 30px;
+	color: black;
+	background-color: white;
+	border: 0;
+}
+.show .show5 button:active{
+	margin-left: 80px;
+	width: 80px;
+	height: 30px;
+	color: white;
+	background-color: black;
+	border: 0;
+}
+.show .show6{
+	float: left;
+	width: 250px;
+	height: 250px;
+	background-color: rgb(9,203,200);
+}
+.show .show7{
+	float: left;
+	width: 250px;
+	height: 250px;
+	background-color: rgb(9,203,200);
+}
+
+.show .show7 .title-t{
+	width: 100%
+	height 5px;
+	/*background-color: yellow;*/
+	color: white;
+	font-size: 20px;
+	padding-left: 10px;
+	margin-top: 15px;
+}
+.show .show7 .title-v{
+	width: 100%;
+	height: 60px;
+	/*background-color: blue;*/
+	padding: 10px;
+	font-size: 13px;
+	color: white;
+}
+.show .show7 .content{
+    text-align: left;
+    color: rgba(255,255,255,0.7);
+    font-size: 12px;
+    padding: 10px;
+    margin-top: -30px;
+}
+.show .show7 button{
+	margin-left: 80px;
+	width: 80px;
+	height: 30px;
+	color: white;
+	background-color: black;
+	border: 0;
+}
+.show .show7 button:hover{
+	margin-left: 80px;
+	width: 80px;
+	height: 30px;
+	color: black;
+	background-color: white;
+	border: 0;
+}
+.show .show7 button:active{
+	margin-left: 80px;
+	width: 80px;
+	height: 30px;
+	color: white;
+	background-color: black;
+	border: 0;
+}
+
+.show .show6 img{
+  width: 250px;
+  height: 250px;
+}
+.show .show8{
+	float: left;
+	width: 250px;
+	height: 250px;
+	background-color: rgb(9,203,200);
+}
+.show .show8 img{
+  width: 250px;
+  height: 250px;
+}
+
+/*gallery*/
+.gallery{
+	width: 100%;
+	height: 80px;
+	font-size: 40px;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 80px;
+	margin-top: 20px;
+}
+.gallery-1{
+   width: 30px;
+   height: 2px;
+   background-color: rgb(9,203,200);
+    margin: 0 auto;
+    margin-top: 10px; 
+}
+.gallery-2{
+	width: 600px;
+	text-align: center;
+/*	background-color: red;*/
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.gallery-body{
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 800px;
+	height: 600px;
+	/*background-color: red;*/
+}
+.gallery-body .l1{
+	float: left;
+	width: 266.66px;
+	height:230px;
+	/*border: 1px black solid;*/
+}
+.gallery-body .i-text{
+	width:240px;
+	height: 40px;
+	color: white;
+	background-color: black;
+	margin-top: -5px;
+	margin-left: 10px;
+	padding-left: 10px;
+	line-height: 40px;
+	font-size: 13px; 
+}
+.gallery-body .l1 .i-img img{
+	margin-left:10px; 
+	width: 250px;
+	height:170px;
+} 
+
+.foot-f{
+	width: 100%;
+	height: 50px;
+	background-color: rgb(9,203,200);
+	color: rgb(255,255,255);
+	line-height: 50px;
+	text-align: center;
+}
+
+
+
+
+
